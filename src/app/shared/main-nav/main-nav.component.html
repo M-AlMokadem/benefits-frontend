@@ -1,0 +1,40 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport="false" mode="side" [opened]="(isHandset$ | async) === false">
+    <mat-toolbar>
+      <img src="../../../assets/images/benefits-logo.svg">
+      <br />
+
+    </mat-toolbar>
+    <mat-nav-list layout="column" layout-align="center end">
+      <div layout="column" layout-align="center center">
+      <div class="circle-container">
+        <div class="mask">
+          <img src="../../../assets/images/profile-pic.svg" class="Artboard-30">
+        </div>
+      </div>
+      <p class="emp-name">{{name}}</p>
+      <a mat-list-item href="#">Home</a>
+      <a mat-list-item href="#">Main Benefits</a>
+      <a mat-list-item href="#">Offers</a>
+      <a mat-list-item href="#">FAQs</a>
+      <a mat-list-item href="#">Suggest Benefit</a>
+      <a mat-list-item href="#">Power Of My ID</a>
+    </div>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async">
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      <span></span>
+      <span class="spacer"></span>
+      <a routerLink="complaint/create">Add Complaint</a>
+      <a href="#">Add accounts</a>
+      <a href="#">Logout</a>
+
+    </mat-toolbar>
+    <!-- Add Content Here -->
+  </mat-sidenav-content>
+</mat-sidenav-container>
