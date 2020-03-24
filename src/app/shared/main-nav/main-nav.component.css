@@ -4,9 +4,11 @@
 }
 
 .sidenav {
-  width: 301px;
+  width: 15%;
   /* min-height: 95px; */
   box-shadow: 3px 0 6px rgba(0, 0, 0, 0.24);
+  justify-content: center;
+  /* align-self: center; */
 }
 
 .sidenav .mat-toolbar {
@@ -28,6 +30,26 @@
   background: #bb3;
   /* height: 200px; */
   /* display: inherit; */
+}
+.mat-list-item{
+  /* font-family: Poppins; */
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #999999;
+}
+.mat-list-item.active{
+  /* font-family: Poppins; */
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #e60000;
 }
 .mat-toolbar.mat-primary {
   background: #ffffff;
