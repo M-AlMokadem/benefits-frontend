@@ -10,10 +10,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HomeComponent } from './home/home/home.component';
+import { HomeComponent } from './_home/home-view/home.component';
 import { Routes } from '@angular/router';
 import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent }]
@@ -35,7 +37,7 @@ const routes: Routes = [
     MatIconModule,
     MatCardModule,
     MatGridListModule,
-    
+    FlexLayoutModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

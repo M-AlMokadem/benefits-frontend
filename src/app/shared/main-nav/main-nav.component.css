@@ -1,6 +1,6 @@
 .sidenav-container {
   height: 100%;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 
 .sidenav {
@@ -13,7 +13,7 @@
 
 .sidenav .mat-toolbar {
   background: inherit;
-  background-color: aqua;
+  /* background-color: aqua; */
   padding: 2.5rem;
   /* height: 300px; */
 }
@@ -27,7 +27,7 @@
 }
 
 .mat-drawer-content {
-  background: #bb3;
+  /* background: #bb3; */
   /* height: 200px; */
   /* display: inherit; */
 }
