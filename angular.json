@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "benefits-frontend"
+  "defaultProject": "benefits-frontend",
+  "cli": {
+    "analytics": "1f44d506-bdcc-4e62-8d89-d4581e230d9c"
+  }
 }
