@@ -10,13 +10,19 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HomeComponent } from './home/home/home.component';
+import { Routes } from '@angular/router';
+import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material';
 
-
+const routes: Routes = [
+  { path: 'home', component: HomeComponent }]
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainNavComponent
+    MainNavComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +32,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatSidenavModule,
     MatToolbarModule,
     MatListModule,
-    MatIconModule
+    MatIconModule,
+    MatCardModule,
+    MatGridListModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
