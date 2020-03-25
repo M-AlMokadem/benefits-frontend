@@ -12,11 +12,13 @@ import { MatListModule } from '@angular/material/list';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './_home/home-view/home.component';
 import { Routes } from '@angular/router';
-import {MatCardModule} from '@angular/material/card';
-import {MatGridListModule} from '@angular/material';
+import { MatCardModule } from '@angular/material/card';
+import { MatGridListModule } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MainBenefitsViewComponent } from './_mainBenefits/main-benefits-view/main-benefits-view.component';
-import {MatTabsModule} from '@angular/material/tabs';
+import { MatTabsModule } from '@angular/material/tabs';
+import { PhoneProgramComponent } from './phone-program/phone-program.component';
+import { MatButtonModule } from '@angular/material/button';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent }]
@@ -26,7 +28,8 @@ const routes: Routes = [
     AppComponent,
     MainNavComponent,
     HomeComponent,
-    MainBenefitsViewComponent
+    MainBenefitsViewComponent,
+    PhoneProgramComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +43,8 @@ const routes: Routes = [
     MatCardModule,
     MatGridListModule,
     FlexLayoutModule,
-    MatTabsModule
+    MatTabsModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
