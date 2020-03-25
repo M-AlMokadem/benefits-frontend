@@ -108,3 +108,21 @@ p {
     line-height: 3rem;
   }
 }
+
+
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  background-color: #e60000;
+}
+
+.mat-tab-label.mat-tab-label-active{
+  color: #e60000 ; 
+  background-color: #ffff;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.mat-tab-label {
+  background-color: #ffff;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
