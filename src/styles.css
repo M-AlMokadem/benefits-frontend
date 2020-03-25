@@ -110,7 +110,7 @@ p {
 }
 
 
-.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+/* .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
   background-color: #e60000;
 }
 
@@ -125,4 +125,4 @@ p {
   background-color: #ffff;
   font-size: 1.5rem;
   font-weight: 800;
-}
+} */

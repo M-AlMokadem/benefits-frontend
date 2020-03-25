@@ -3,12 +3,17 @@
     background-color: #e60000;
 }
 
-.mat-tab-label.mat-tab-label-active{
-    color: #e60000 ; 
-    background-color: #ffff;
-    font-size: 1.5rem;
-    font-weight: 800;
-}
+ .mat-tab-label.mat-tab-label-active {  
+        color: #e60000 ; 
+        background-color: #ffff;
+        font-size: 1.5rem;
+        font-weight: 800; 
+  }
+
+  .cardcontainer .mat-card-image{
+    width: calc(50%);
+    margin: 0px;
+  }
 
 .mat-tab-label {
     background-color: #ffff;
