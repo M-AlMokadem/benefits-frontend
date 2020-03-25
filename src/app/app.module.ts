@@ -21,7 +21,8 @@ import { PhoneProgramComponent } from './phone-program/phone-program.component';
 import { MatButtonModule } from '@angular/material/button';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent }]
+  { path: '', component: HomeComponent }
+];
 
 @NgModule({
   declarations: [

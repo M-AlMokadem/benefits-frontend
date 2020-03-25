@@ -32,7 +32,7 @@
   /* display: inherit; */
 }
 .mat-list-item{
-  /* font-family: Poppins; */
+  font-family: 'Poppins';
   font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
@@ -42,7 +42,7 @@
   color: #999999;
 }
 .mat-list-item.active{
-  /* font-family: Poppins; */
+  font-family: 'Poppins';
   font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
@@ -50,6 +50,10 @@
   line-height: 1.11;
   letter-spacing: normal;
   color: #e60000;
+}
+.mat-list-item.active .mat-list-item-content>svg>g>g{
+  /* color: #e60000; */
+  fill: #e60000;
 }
 .mat-toolbar.mat-primary {
   background: #ffffff;
@@ -114,6 +118,12 @@
   letter-spacing: normal;
   text-align: center;
   color: #333333;
+}
+.benefits {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-right: 18px;
 }
 
 
