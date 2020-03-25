@@ -16,7 +16,8 @@
         <a mat-list-item href="#" [routerLinkActive]="['active']">
           <mat-icon [class.active]=true >home</mat-icon> Home
         </a>
-        <a mat-list-item href="#"> <mat-icon>people</mat-icon> Main Benefits</a>
+        <a mat-list-item href="#" routerLinkActive="active" [routerLinkActiveOptions]="{exact:
+          true}" routerLink="/home"> <mat-icon>people</mat-icon> Main Benefits</a>
         <a mat-list-item href="#"> <mat-icon>people</mat-icon> Offers</a>
         <a mat-list-item href="#"> <mat-icon>people</mat-icon> FAQs</a>
         <a mat-list-item href="#"> <mat-icon>people</mat-icon> Suggest Benefit</a>
@@ -38,6 +39,7 @@
 
     </mat-toolbar>
     <!-- Add Content Here -->
-    <app-home></app-home>
+    <!-- <app-home></app-home> -->
+    <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>
