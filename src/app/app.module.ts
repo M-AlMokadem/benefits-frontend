@@ -15,7 +15,8 @@ import { Routes } from '@angular/router';
 import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
-
+import { MainBenefitsViewComponent } from './_mainBenefits/main-benefits-view/main-benefits-view.component';
+import {MatTabsModule} from '@angular/material/tabs';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent }]
@@ -24,7 +25,8 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     MainNavComponent,
-    HomeComponent
+    HomeComponent,
+    MainBenefitsViewComponent
   ],
   imports: [
     BrowserModule,
@@ -38,6 +40,7 @@ const routes: Routes = [
     MatCardModule,
     MatGridListModule,
     FlexLayoutModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

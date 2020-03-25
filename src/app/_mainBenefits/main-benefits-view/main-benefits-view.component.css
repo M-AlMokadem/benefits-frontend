@@ -1,4 +1,23 @@
-.example-card {
+
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+    background-color: #e60000;
+}
+
+.mat-tab-label.mat-tab-label-active{
+    color: #e60000;
+    background-color: #ffff;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.mat-tab-label {
+    background-color: #ffff;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+  /* home css */
+  .example-card {
     border-radius: 4.8px;
     box-shadow: 0 10px 21px 0 rgba(93, 100, 141, 0.08);
     background-color: #ffffff;
@@ -31,28 +50,29 @@
 
   .cardcontainer{
       margin-left: 12rem;
-      margin-top: 10rem;
+      margin-top: 5rem;
   }
 
   
   /* medium size viewport */
   @media screen and (max-width: 959px) {
     .cardcontainer{
-      margin-left: 6rem;
+      margin-left: 0rem;
       margin-top: 5rem;
     } 
   }
 
    /* small size viewport */
    @media screen and (max-width: 599px) {
-    .example-card{
-      margin-left: 0rem;
-      margin-bottom: 2rem;
-  }
+    
     .cardcontainer{
       margin-left: 0rem;
       margin-top: 2rem;
     } 
+    .example-card{
+        margin-left: 0rem;
+        margin-bottom: 2rem;
+    }
   }
 
  

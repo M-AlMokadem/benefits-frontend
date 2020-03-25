@@ -13,11 +13,12 @@
           </div>
         </div>
         <p class="emp-name">{{name}}</p>
-        <a mat-list-item href="#" [routerLinkActive]="['active']">
+        <a mat-list-item href="#" routerLinkActive="active" [routerLinkActiveOptions]="{exact:
+          true}" routerLink="/home">
           <mat-icon [class.active]=true >home</mat-icon> Home
         </a>
         <a mat-list-item href="#" routerLinkActive="active" [routerLinkActiveOptions]="{exact:
-          true}" routerLink="/home"> <mat-icon>people</mat-icon> Main Benefits</a>
+          true}" routerLink="/benefits"> <mat-icon>people</mat-icon> Main Benefits</a>
         <a mat-list-item href="#"> <mat-icon>people</mat-icon> Offers</a>
         <a mat-list-item href="#"> <mat-icon>people</mat-icon> FAQs</a>
         <a mat-list-item href="#"> <mat-icon>people</mat-icon> Suggest Benefit</a>
